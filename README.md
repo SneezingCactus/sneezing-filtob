@@ -2,15 +2,15 @@
 
 ## How config.json works
 
-strictLevel determines if the swear detection is more strict or not (0 is low, 1 is high)\n
-strictLevel 0 ignores all words from the modified word dictionary (such as "penistone" or multiple words like "fish it") and the words in the false positive list (like "gayfish")\n
-strictLevel 1 detects all swear words even if they're inside words or false positives ("gayfish" becomes "bonkfish", "penistone" becomes "bonktone", etc)\n
-\n
-falsePositives obviously contains all false positives\n
-the same goes for filteredWords\n
-\n
-similarChars contains all characters that the filter replaces for their actual character. \n
-For example, "o":"0Ȫ" means that the filter will replace any 0 and Ȫ that the sentence might have with an "o" to then check for any swear words.\n
+strictLevel determines if the swear detection is more strict or not (0 is low, 1 is high)<br/>
+strictLevel 0 ignores all words from the modified word dictionary (such as "penistone" or multiple words like "fish it") and the words in the false positive list (like "gayfish")<br/>
+strictLevel 1 detects all swear words even if they're inside words or false positives ("gayfish" becomes "bonkfish", "penistone" becomes "bonktone", etc)<br/>
+<br/>
+falsePositives obviously contains all false positives<br/>
+the same goes for filteredWords<br/>
+<br/>
+similarChars contains all characters that the filter replaces for their actual character.<br/>
+For example, "o":"0Ȫ" means that the filter will replace any 0 and Ȫ that the sentence might have with an "o" to then check for any swear words.<br/>
 
 
 ## The word dictionary
