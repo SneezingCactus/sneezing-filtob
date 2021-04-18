@@ -4,7 +4,7 @@
 
 strictLevel determines if the swear detection is more strict or not (0 is low, 1 is high)
 strictLevel 0 ignores all words from the modified word dictionary (such as "penistone" or multiple words like "fish it") and the words in the false positive list (like "gayfish")
-strictLevel 1 detects all swear words even if they're inside words or false positives ("gayfish" gets detected, "my pen is red" is detected, etc)
+strictLevel 1 detects all swear words even if they're inside words or false positives ("gayfish" becomes "bonkfish", "penistone" becomes "bonktone", etc)
 
 falsePositives obviously contains all false positives
 the same goes for filteredWords
