@@ -13,5 +13,5 @@ similarChars contains all characters that the filter replaces for their actual c
 For example, "o":"0Ȫ" means that the filter will replace any 0 and Ȫ that the sentence might have with an "o" to then check for any swear words.
 
 
-# The word dictionary
+## The word dictionary
 The word dictionary contains all english words except for the ones that derive from a swear word. If a new swear word is added into filteredWords, you need to remove any ocurrences of that swear word in the word dictionary, or else these would get considered as english words and be ignored.
